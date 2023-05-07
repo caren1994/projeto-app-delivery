@@ -1,13 +1,38 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Projeto Delivery APP
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Projeto em grupo realizado durante módulo de Back-end do curso de desenvolvimento web da Trybe.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<details>
+  <summary><strong>O que foi Realizado</strong></summary></br>
+
+Neste projeto em grupo criamos e integramos tanto o back-end quanto o front-end, criando uma plataforma de delivery de cerveja.
+
+Nesta aplicação, é possível fazer a comunicação entre clientes e pessoas vendedoras: a pessoa cliente faz o pedido via "carrinho de compras" e a pessoa vendedora aprova, prepara e envia esse pedido. Quando o produto é recebido por quem comprou, essa pessoa marca o pedido como "recebido". Ambos possuem detalhes sobre seus pedidos.
+
+  A aplicação foi desenvolvida com:
+
+- `Node.js`
+- `Javascript`
+- `Sequelize`
+- `Arquitetura MSC`
+- `Express`;
+- `MySql`;
+
+</details>
+<details>
+  <summary><strong>Como rodar o projeto</strong></summary></br>
+
+ Configurações mínimas para execução do projeto:
+
+- Sistema Operacional Distribuição Unix
+- Node versão 16.14.0 LTS
+
+**Localmente:**
+
+**Necessita ter um banco de dados(MySql) instalado localmente**
+
+- `npm install` na raiz do projeto;
+- `npm run dev` na raiz do projeto;
+- `localhost:3000` no browser;
+
+</details>
